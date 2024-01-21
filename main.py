@@ -1,4 +1,5 @@
-import game
+def math(a, b):
+    return a*b
 
-
-game.ig()
+a, b = map(int, input().split())
+print(math(a, b))
